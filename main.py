@@ -113,6 +113,6 @@ y_pred = rr.predict(X)
 pro["aluguel"] = y_pred
 print(pro.head())
 
-import open
+import openpyxl
 
 pro.to_excel("resultado.xlsx")
